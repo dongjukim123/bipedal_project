@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 project(urdf_example LANGUAGES CXX)
 
-find_package(raisim CONFIG REQUIRED)
 find_package(Eigen3 REQUIRED HINTS ${Eigen3_HINT})
 find_package(camel-tools-trajectory REQUIRED)
 
@@ -12,6 +11,6 @@ add_executable(urdf_example urdf_ex.cpp)
 
 
 target_link_libraries(urdf_example
-        raisim::raisim
+        raisim
         pthread
         camel-tools-trajectory)

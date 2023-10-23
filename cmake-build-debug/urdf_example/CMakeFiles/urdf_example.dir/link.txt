@@ -1,0 +1,1 @@
+/bin/c++ -g CMakeFiles/urdf_example.dir/urdf_ex.cpp.o -o urdf_example   -L/home/dongju/Library/raisimLib/raisim/linux/lib  -L/bin  -L/usr/share/c++-mscl  -Wl,-rpath,/home/dongju/Library/raisimLib/raisim/linux/lib:/bin:/usr/share/c++-mscl:/usr/local/lib -lmscl -lstdc++ -lpthread -lraisim -lpthread /usr/local/lib/libcamel-tools-trajectory.so -lraisim 
